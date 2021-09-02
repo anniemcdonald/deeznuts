@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+/*
+ * Baby styles. Work in progress, just wait til you see it bloom.
+ */
+ h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 100px;
+    color:#C97D60;
+    text-align: center;
+  }
+  
+  /* Make buttons flexy */
+  #button-area {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #jokes {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    background-color: #F2E5D7;
+    border-radius: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Make jokes flexy */
+  #jokes div {
+    display: flex;
+    
+  }
+  #jokes p {
+      margin: 10px;
+  }
+
+  #jokes div:nth-child(odd){
+      text-align: left;
+  }
+  
+  /* Keeping this in cuz why not. */
+  button {
+    /* border: 2px solid pink; */
+    border: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 75px;
+    color:#C97D60;
+    border: 0 px solid; /* judgmental against pink. */
+    background-color:#FFFF;
+    border-radius: 30px;
+  }
+  button:hover {
+    background-color:#F2E5D7;
+  }
+  
